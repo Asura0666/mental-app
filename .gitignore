@@ -1,0 +1,51 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# VS Code settings (if you use VS Code)
+.vscode/
+
+# PyCharm settings (if you use PyCharm)
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+*.db-journal
+
+# FastAPI config files
+.env # sensitive credentials can go here
+*.env
+.env.local
+
+# Logs
+*.log
+
+# Distribution / packaging
+.coverage
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Python testing
+.pytest_cache/
+*.cover
+.hypothesis/
+
+# Ignore virtual environments
+venv/
+.venv/
